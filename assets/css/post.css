@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Playball&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poly&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #96cabe;
+  font-family: "poly";
+  background: url("../img/cover.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login {
+  position: fixed;
+  top: 45%;
+  left: 43%;
+  transform: translate(-30%, -50%);
+  background-color: #76a89c;
+  width: 450px;
+  box-shadow: 0px 0px 25px 10px black;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.login .header {
+  background-color: #487a6e;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 20px;
+  margin-bottom: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.header a {
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.login h2 {
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  font-family: "poppins bold";
+  padding-top: 0;
+}
+
+.btn-back {
+  width: 33px;
+  height: 33px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.box-login {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  border-bottom: 2px solid white;
+  padding: 8px 0;
+}
+
+.box-login label {
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.box-login input {
+  width: 75%;
+  padding: 5px 0;
+  background: none;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.box-login textarea {
+  width: 75%;
+  padding: 5px 0;
+  background: none;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 18px;
+  height: 200px;
+}
+
+.kategori {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  border-bottom: 2px solid white;
+  padding: 8px 0;
+  gap: 25px;
+}
+
+.kategori label {
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.kategori select {
+  width: fit-content;
+  height: fit-content;
+  padding: 3px;
+  align-self: center;
+  text-transform: capitalize;
+}
+
+.box-login input::placeholder {
+  color: white;
+}
+.btn-login .box-login input:hover {
+  background: rgba(10, 10, 10, s 0.5);
+}
+.btn-login {
+  margin-left: 10px;
+  margin-bottom: -10px;
+  background-color: #487a6e;
+  border: 1px solid white;
+  width: 92.5%;
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+.btn-login:hover {
+  background: rgba(12, 30, 15, 0.5);
+}
+
+.tombol {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 30px 0px 30px;
+  padding: 0 50px 50px;
+}

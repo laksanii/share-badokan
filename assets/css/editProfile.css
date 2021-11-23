@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Playball&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poly&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/cover.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Pallete */
+
+.base {
+  background-color: #76a89c;
+}
+
+.dark {
+  background-color: #487a6e;
+}
+
+.soft {
+  background-color: #96cabe;
+}
+
+/* Font */
+
+.playball {
+  font-family: "Playball", cursive;
+}
+
+.poly {
+  font-family: "Poly", serif;
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Header */
+.container {
+  width: 30%;
+  margin: 20px auto;
+  font-size: 26px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.container .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 20px;
+  margin-bottom: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.btn-back {
+  width: 33px;
+  height: 33px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+form .field.upload-img {
+  display: flex;
+  padding: 5px 20px;
+  align-items: center;
+  gap: 20px;
+}
+
+form .field img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+form .field .label span {
+  padding-left: 5px;
+}
+
+form .field:not(.upload-img) {
+  padding: 5px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.field span.error {
+  font-size: 14px;
+  margin-top: 5px;
+  color: red;
+}
+
+form .field input:not([type="submit"]) {
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.submit {
+  margin-top: 20px;
+}
+
+.submit input {
+  padding: 5px 20px;
+  font-size: 16px;
+  margin: auto;
+  text-transform: uppercase;
+  outline: none;
+  border-radius: 5px;
+}

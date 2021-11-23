@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Playball&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poly&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #96cabe;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Pallete */
+
+.base {
+  background-color: #76a89c;
+}
+
+.dark {
+  background-color: #487a6e;
+}
+
+.soft {
+  background-color: #96cabe;
+}
+
+/* Font */
+
+.playball {
+  font-family: "Playball", cursive;
+}
+
+.poly {
+  font-family: "Poly", serif;
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navbar */
+
+.navbar {
+  position: fixed;
+  width: 100%;
+}
+
+.navbar-nav {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 100px;
+}
+
+.navbar-nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-nav .brand span {
+  display: block;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.navbar-nav .search-bar {
+  padding: 10px;
+}
+
+.navbar-nav .search-bar input {
+  width: 500px;
+  padding: 5px;
+  outline: none;
+  border: 1px solid black;
+  font-size: 14px;
+}
+
+.navbar-nav .nav {
+  display: flex;
+}
+
+.navbar-nav .nav a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 15px 30px;
+}
+
+.container {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.container .content {
+  width: 80%;
+  margin: 0 auto 50px;
+  padding: 20px;
+}
+
+.content h1 {
+  margin-bottom: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: 0 auto;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+.member-img {
+  width: 150px;
+  height: 150px;
+}
+
+td a {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+a {
+  color: black;
+}
+
+.add-admin {
+  display: block;
+  width: fit-content;
+  margin: 0 auto 20px 60px;
+  box-sizing: border-box;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: black;
+}

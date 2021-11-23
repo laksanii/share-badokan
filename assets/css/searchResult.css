@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Playball&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poly&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #96cabe;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Pallete */
+
+.base {
+  background-color: #76a89c;
+}
+
+.dark {
+  background-color: #487a6e;
+}
+
+.soft {
+  background-color: #96cabe;
+}
+
+/* Font */
+
+.playball {
+  font-family: "Playball", cursive;
+}
+
+.poly {
+  font-family: "Poly", serif;
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navbar */
+
+.navbar {
+  position: fixed;
+  width: 100%;
+}
+
+.navbar-nav {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 100px;
+}
+
+.navbar-nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-nav .brand span {
+  display: block;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.navbar-nav .search-bar {
+  padding: 10px;
+}
+
+.navbar-nav .search-bar input {
+  width: 500px;
+  padding: 5px;
+  outline: none;
+  border: 1px solid black;
+  font-size: 14px;
+}
+
+.navbar-nav .nav {
+  display: flex;
+}
+
+.navbar-nav .nav a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 15px 30px;
+}
+
+/* Result */
+section.result {
+  padding-top: 70px;
+}
+
+.content {
+  margin: 5px auto 20px;
+  width: 60%;
+  background-color: #76a89c;
+  border-radius: 5px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.content .profile-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.content .row {
+  display: flex;
+  gap: 10px;
+  padding: 15px 30px 15px 15px;
+}
+
+.content .name-box {
+  align-self: center;
+}
+
+.content .name-box span:nth-child(1) {
+  display: block;
+}
+
+.content .name-box .name {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.content .button {
+  align-self: center;
+  margin-left: auto;
+}
+
+.content .button a {
+  color: black;
+  border: 1px solid black;
+  padding: 5px 10px;
+  font-size: 18px;
+  border-radius: 2px;
+}
+
+.content .button a:hover {
+  background-color: #76a89c;
+}

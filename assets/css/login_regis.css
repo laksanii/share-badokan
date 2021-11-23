@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Playball&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poly&display=swap");
+body {
+  background-image: url("../img/cover.jpeg");
+  background-size: cover;
+  font-family: "Poly";
+  color: white;
+}
+
+label {
+  color: black;
+}
+.tulisan_atas_kotak {
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Playball";
+  color: black;
+  font-size: 35px;
+}
+
+.kotak_login_regis {
+  width: 500px;
+  background: #487a6e;
+  /*meletakkan form ke tengah*/
+  margin: 80px auto;
+  padding: 30px 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5px;
+  /* box-shadow: 0px 0px 100px 4px white; */
+}
+
+.form_login_regis {
+  /*membuat lebar form penuh*/
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  font-size: 11pt;
+  margin-bottom: 20px;
+  background: #96cabe;
+}
+
+form label {
+  font-family: "Poly";
+}
+
+.tombol_login_regis {
+  background: #96cabe;
+  color: black;
+  font-size: 11pt;
+  width: 100%;
+  border: none;
+  padding: 10px 20px;
+}
+
+center {
+  margin-top: 20px;
+}
+
+center span {
+  color: black;
+  font-size: 18px;
+}
+
+center a {
+  text-decoration: none;
+}

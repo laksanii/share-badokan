@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Playball&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poly&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: url("../img/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 -100px;
+}
+
+/* Pallete */
+
+.base {
+  background-color: #76a89c;
+}
+
+.dark {
+  background-color: #487a6e;
+}
+
+.soft {
+  background-color: #96cabe;
+}
+
+/* Font */
+
+.playball {
+  font-family: "Playball", cursive;
+}
+
+.poly {
+  font-family: "Poly", serif;
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  padding: 60px 50px;
+}
+
+nav .brand span {
+  text-shadow: 20px 20px 50px black;
+  font-size: 60px;
+  color: white;
+}
+
+nav .btn {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+nav .btn a {
+  text-decoration: none;
+  color: white;
+  height: fit-content;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px 15px 15px;
+  border-radius: 40px;
+}
+
+/* Content */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  justify-content: end;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  gap: 18;
+}
+
+.content h3 {
+  font-size: 24px;
+}
+
+.content h1 {
+  font-size: 72px;
+}
+
+/* Photos */
+
+.photos {
+  display: flex;
+  gap: 20px;
+  padding: 40px 50px;
+  margin: auto;
+}
+
+.photos .col {
+  flex: 20%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.photos .col img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.photos .col .overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.photos .col .overlay span {
+  color: white;
+  font-size: 26px;
+  transform: scale(0);
+  transition: 0.5s;
+}
+
+.photos .col:hover .overlay {
+  transition: 0.5s;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.photos .col:hover .overlay span {
+  color: white;
+  font-size: 26px;
+  transform: scale(1);
+}
